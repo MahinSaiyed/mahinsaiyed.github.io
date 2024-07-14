@@ -1,0 +1,492 @@
+*{
+    padding: 0%;
+    margin: 0%;
+   }
+ 
+html{
+  scroll-behavior:smooth;
+  }
+ 
+body::-webkit-scrollbar {
+  display: none;
+  }
+
+.h3{
+  font-size: 18px;
+  margin-left: 12px;
+  }
+    
+.li-a{
+  display: flex;
+  }
+
+.logo-img1{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 12px 0 0 10px;
+  } 
+
+.logo-img2{
+  position: absolute;
+  margin-top: 20px;
+  height: 70px;
+  width:170px;
+  }
+
+.h1{
+  margin-left: 12px;
+  }
+
+.head{
+  background-color:black;
+  margin-top: 10px;
+  padding: 10px 0;
+  width: 100%;
+  }
+
+.button1{
+  height: 100%;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: 10px 20px;
+  padding: 4px 10px; 
+  cursor: pointer;
+  text-decoration: none;
+  }
+
+a:hover{
+  background-color: rgb(4, 184, 244);
+  color: black;
+  border: transparent;
+  }
+
+.img1{
+  justify-content: center;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  }
+
+.img2{
+  width: 350px;
+  }
+
+.li1{
+  margin-left: 70px;
+  ont-size: 20px;
+  }
+
+.section1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;  
+  }
+
+.section2{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  }
+
+.section3{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;  
+  }
+
+.section4{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;         
+  }
+
+.section44{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+.section5{
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  }
+
+.section6 {
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  }
+
+.section7 {
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  }
+
+.section8 {
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  }
+
+.img22{
+  width: 400px;
+  height: 400px;
+  background-color:rgb(139, 219, 11);
+  object-fit: contain;  
+  }
+
+.new-img-1{
+  width: 250px;
+  height: 250px;
+  background-color:rgb(236, 234, 234);
+  object-fit: contain;
+  margin: 30px; 
+  border-radius: 50px;
+  }
+
+.li2{
+  margin-right: 30px;
+  font-size: 20px;
+  }
+   
+.big-font{
+  font-size: 30px;
+  margin-left: -20px;
+  }
+   
+.footer{
+  background-color: black;
+  padding: 40px;
+  }
+
+.insta{
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 10px;
+  }
+ 
+
+.social-icons{
+  background-color: blueviolet;
+  justify-content: center;
+  text-align: center;
+  }
+
+.call-number{
+  display: flex;
+  justify-content:;
+  margin-top: 40px;
+  }
+
+.insta-img-1{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.insta-img-2{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.insta-img-3{
+  height: 20px;
+  width: 20px;
+}
+
+.num-1{
+  color: white;
+  font-size: 18px;
+}
+
+.num-2{
+  color: white;
+  font-size:18px;
+}
+
+
+.num-3{
+  color: white;
+  font-size:18px;
+  margin-left: 8px;
+}
+
+.p{
+  color: white;
+  text-align:center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#cheakbtn{
+ float: right;
+ line-height:80px;
+ display: none;
+ margin-right: ;
+ font-size: 30px;
+ color: white;
+}
+
+#cheak{
+ display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+     
+  .img2{
+    width: 400px;
+    height: auto;
+  }
+  
+  .img1 {
+    width: 30%;
+    height: auto;
+    margin-left:70px;
+  }
+  
+  .li1{
+    margin-right: 100px;
+      width: 500px;
+      height: 200px;
+      font-size: 18px;
+  }
+  
+  .big-font {
+    font-size: 24px;
+  }
+  
+  .new-img-1 {
+    width: 400px;
+    height: 400px;
+    margin: 20px 20px;
+    object-fit: contain;
+  }
+  
+  .img22{
+    width: 50%;
+    height: 50%;
+    margin-right: 5px;
+  }
+  
+  .section44{
+    margin:50px 20px; 
+  }
+  
+  .insta-img-2{ 
+    width: 50px;
+    height: 50px;
+  }
+  
+  .insta-img-1{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .num {
+    font-size: 16px;
+  }
+  
+  .num-1{
+    margin-right: 100px;
+  }
+  
+  .p{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.img1 {
+  width: 50%;
+  height: auto;
+  margin-left: 30px;
+  object-fit: contain;
+}
+
+.img2{
+  margin-right:30px;
+}
+
+.li1{
+  margin-left: 50px;
+  height: auto;
+  width: 600px;
+}
+
+.li2{
+  margin-left: 90px;
+  width: 200px;
+}
+
+.big-font {
+  font-size: 22px;
+}
+
+.logo-img1{
+  width: 40px;
+  height: auto;
+}
+
+.logo-img2{
+  width: 40px;
+  height: auto;
+  margin: 25px 0 0 10px;
+}
+
+.new-img-1 {
+  width: 80%;
+  height: 400px;
+  margin: 15px 5px;
+  object-fit: contain;
+}
+
+.img22 {
+  width: 50%;
+  height: auto;
+}
+
+.call-number img {
+  width: 25px;
+  height: 25px;
+  margin: 8px 0 8px 8px;
+}
+
+.num-1,.num-2{
+  font-size: 14px;
+}
+
+.num-3{
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.p {
+  margin: 40px 10px 0 0;
+  font-size: 14px;
+}
+}
+/* baki */
+
+
+@media only screen and (max-width: 600px) {
+  
+   .section1, .section3 {
+    /* flex-direction: column-reverse; */
+    flex-wrap:wrap;
+    }
+    
+    .section2{
+      flex-direction: column-reverse;
+    }
+  
+  .img1{
+    width: 100%;
+    height: auto;
+  }
+
+  .li1{
+    font-size: 12px;
+    margin:20px 0 20px 35px;
+  }
+  
+  .li2{
+    font-size: 14px;  
+    margin:20px 0 30px 35px;
+  }   
+
+  .big-font {
+    font-size: 20px;
+  }
+
+  .logo-img1, .logo-img2 {
+    width: 35px;
+    height: auto;
+  }
+
+  .new-img-1 {
+    width: 500px;
+    height: 500px;
+    margin: 10px 10px;
+   }
+
+  .img22 {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+
+  .call-number img {
+    width: 20px;
+    height: 20px;
+    margin-left: 6px;
+  }
+
+  .num-2, .num-1, .num-3 {
+    font-size: 12px;
+  }
+
+  .p{
+    margin-right: 5px;
+    font-size: 12px;
+  }
+ }    /* finish */
+
+@media only screen and (max-width: 480px) {
+  .img1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .li1, .li2 {
+    margin-left: 2px;
+    font-size: 10px;
+  }
+
+  .big-font {
+    font-size: 18px;
+  }
+
+  .logo-img1, .logo-img2 {
+    width: 30px;
+    height: auto;
+  }
+
+  .new-img-1 {
+    width: 500px;
+    height: 500px;
+    margin: 5px 0;
+    object-fit: contain;
+  }
+
+  .img22 {
+    width: 100%;
+    height: auto;
+  }
+
+  .call-number img {
+    width: 15px;
+    height: 15px;
+    margin-left: 4px;
+  }
+
+  .num, .num-1 {
+    font-size: 10px;
+  }
+
+  .p {
+    margin-right: 2px;
+    font-size: 10px;
+  }
+
+    #cheakbtn{
+    display: block;
+  }
+}
