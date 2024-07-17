@@ -18,6 +18,7 @@ body::-webkit-scrollbar {
     
 .li-a{
   display: flex;
+  list-style-type: none;
   }
 
 .logo-img1{
@@ -31,7 +32,7 @@ body::-webkit-scrollbar {
   position: absolute;
   margin-top: 20px;
   height: 70px;
-  width:170px;
+  width: 170px;
   }
 
 .h1{
@@ -51,7 +52,7 @@ body::-webkit-scrollbar {
   color: white;
   border: 2px solid white;
   border-radius: 20px;
-  margin: 10px 20px;
+  margin: 10px 7px;
   padding: 4px 10px; 
   cursor: pointer;
   text-decoration: none;
@@ -135,13 +136,6 @@ a:hover{
   text-align: center;
   }
 
-.img22{
-  width: 400px;
-  height: 400px;
-  background-color:rgb(139, 219, 11);
-  object-fit: contain;  
-  }
-
 .new-img-1{
   width: 250px;
   height: 250px;
@@ -166,19 +160,6 @@ a:hover{
   padding: 40px;
   }
 
-.insta{
-  border-radius: 50%;
-  width: 50px;
-  margin-right: 10px;
-  }
- 
-
-.social-icons{
-  background-color: blueviolet;
-  justify-content: center;
-  text-align: center;
-  }
-
 .call-number{
   display: flex;
   justify-content:;
@@ -191,7 +172,7 @@ a:hover{
   object-fit: contain;
 }
 
-.insta-img-2{
+img.insta-img-2{
   width: 30px;
   height: 30px;
   object-fit: contain;
@@ -226,24 +207,12 @@ a:hover{
   margin-top: 20px;
 }
 
-#cheakbtn{
- float: right;
- line-height:80px;
- display: none;
- margin-right: ;
- font-size: 30px;
- color: white;
-}
-
-#cheak{
- display: none;
-}
-
 @media only screen and (max-width: 1024px) {
      
   .img2{
-    width: 400px;
+    width: 40%;
     height: auto;
+    margin-right: 40px;
   }
   
   .img1 {
@@ -254,11 +223,15 @@ a:hover{
   
   .li1{
     margin-right: 100px;
-      width: 500px;
-      height: 200px;
-      font-size: 18px;
+    width: 500px;
+    height: 200px;
+    font-size: 18px;
   }
   
+  .li2{
+    margin-left: 50px;
+  }
+
   .big-font {
     font-size: 24px;
   }
@@ -269,25 +242,15 @@ a:hover{
     margin: 20px 20px;
     object-fit: contain;
   }
-  
-  .img22{
-    width: 50%;
-    height: 50%;
-    margin-right: 5px;
+
+  img.insta-img-2{ 
+    width: 30px;
+    height: auto;
   }
   
-  .section44{
-    margin:50px 20px; 
-  }
-  
-  .insta-img-2{ 
-    width: 50px;
-    height: 50px;
-  }
-  
-  .insta-img-1{
-    width: 50px;
-    height: 50px;
+  img.insta-img-1{
+    width: 30px;
+    height:auto;
   }
   
   .num {
@@ -360,17 +323,18 @@ a:hover{
 }
 
 .num-1,.num-2{
-  font-size: 14px;
+  font-size: 16px;
+  margin:10px 0 0 5px;
 }
 
 .num-3{
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
-.p {
+.p{
   margin: 40px 10px 0 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 }
 /* baki */
@@ -378,8 +342,16 @@ a:hover{
 
 @media only screen and (max-width: 600px) {
   
+  img.logo-img1{
+    width: 80px;
+  }
+
+   img.logo-img2{
+    width: 140px;
+    margin-top: 30px;
+   }
+
    .section1, .section3 {
-    /* flex-direction: column-reverse; */
     flex-wrap:wrap;
     }
     
@@ -388,22 +360,30 @@ a:hover{
     }
   
   .img1{
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin-left: 0%;
+  }
+
+  .img2{
+    width: 99%;
+    height: auto;
+    margin-left: 0px ;
   }
 
   .li1{
-    font-size: 12px;
-    margin:20px 0 20px 35px;
+    font-size: 16px;
+    margin:20px 0 30px 50px;
   }
   
   .li2{
-    font-size: 14px;  
-    margin:20px 0 30px 35px;
+    font-size: 16px;  
+    margin:20px 0 30px 50px;
+    width: 500px;
   }   
 
   .big-font {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .logo-img1, .logo-img2 {
@@ -417,12 +397,6 @@ a:hover{
     margin: 10px 10px;
    }
 
-  .img22 {
-    width: 50%;
-    height: 50%;
-    object-fit: contain;
-  }
-
   .call-number img {
     width: 20px;
     height: 20px;
@@ -430,28 +404,55 @@ a:hover{
   }
 
   .num-2, .num-1, .num-3 {
-    font-size: 12px;
+    font-size: 16px;
+  }
+
+  .num-1, .num-2 {
+    margin: 10px 0 0 5px;
   }
 
   .p{
     margin-right: 5px;
-    font-size: 12px;
+    font-size: 16px;
   }
  }    /* finish */
 
 @media only screen and (max-width: 480px) {
+   
+    img.logo-img2{
+    width: 110px;
+    margin-top: 27px;
+   }
+
+   img.logo-img1{
+     width: 60px;
+   }
+
   .img1 {
-    width: 100%;
+    width: 90%;
+    height: auto;
+  }
+
+  .img2{
+    width: 99%;
     height: auto;
   }
 
   .li1, .li2 {
-    margin-left: 2px;
-    font-size: 10px;
+    margin-left: 60px;
+    font-size: 16px;
   }
 
+   .li2{
+    width: 400px;
+   }
+
+   .li-a{
+     justify-content:  center;
+   }
+
   .big-font {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .logo-img1, .logo-img2 {
@@ -460,15 +461,10 @@ a:hover{
   }
 
   .new-img-1 {
-    width: 500px;
+    width: 90%;
     height: 500px;
-    margin: 5px 0;
+    /* margin: 5px 0; */
     object-fit: contain;
-  }
-
-  .img22 {
-    width: 100%;
-    height: auto;
   }
 
   .call-number img {
@@ -477,16 +473,36 @@ a:hover{
     margin-left: 4px;
   }
 
-  .num, .num-1 {
-    font-size: 10px;
+  img.insta-img-1{
+    width: 25px;
+    height: auto;
   }
 
-  .p {
+   
+  img.insta-img-2{
+    width: 30px;
+    height: auto;
+  }
+
+  img.insta-img-3{
+    width: 20px;
+    height: auto;
+  }
+
+  .num-2, .num-1,.num-3 {
+    font-size: 18px;
+  }
+
+  .num-1, .num-2{
+    margin: 8px 0 0 5px;
+  }
+
+  .footer{
+    width: 100%;
+  }
+
+  .p{
     margin-right: 2px;
-    font-size: 10px;
-  }
-
-    #cheakbtn{
-    display: block;
+    font-size: 14px;
   }
 }
