@@ -49,20 +49,17 @@ body::-webkit-scrollbar {
 .button1{
   height: 100%;
   background: none;
-  color: white;
-  border: 2px solid white;
-  border-radius: 20px;
+  color: rgb(203, 199, 199);
   margin: 10px 7px;
-  padding: 4px 10px; 
   cursor: pointer;
   text-decoration: none;
-  }
+  /* text-underline-position: 1px solid white; */
+}
 
 a:hover{
-  background-color: rgb(4, 184, 244);
-  color: black;
-  border: transparent;
-  }
+  background-color:transparent;
+  color: white;
+}
 
 .img1{
   justify-content: center;
@@ -463,7 +460,6 @@ img.insta-img-2{
   .new-img-1 {
     width: 90%;
     height: 500px;
-    /* margin: 5px 0; */
     object-fit: contain;
   }
 
